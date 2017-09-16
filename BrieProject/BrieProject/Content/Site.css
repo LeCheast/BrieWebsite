@@ -29,12 +29,18 @@ textarea {
 /*--------------MY CSS STUFF---------------------*/
 
 
-
+hr {
+    border-color:black;
+}
 .experience {
     background-color: lightgray;
     color: black;
+    margin-bottom: 5px;
 }
 
+.experienceblock {
+    padding-bottom: 10px;
+}
 
 .landing {
     height: 100vh;
