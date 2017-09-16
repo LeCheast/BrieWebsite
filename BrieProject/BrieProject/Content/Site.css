@@ -36,6 +36,7 @@ hr {
     background-color: lightgray;
     color: black;
     margin-bottom: 5px;
+    padding-top: 1px;
 }
 
 .experienceblock {
@@ -46,7 +47,6 @@ hr {
     height: 95vh;
     background-position: center;
     background-size: cover;
-    background-image: url("Image/LandingPageBackground.jpg");
     text-align: center;
     padding-top: 20%;
     background-repeat: no-repeat;
@@ -74,6 +74,16 @@ hr {
     font-family: Pathway Gothic One;
     font-size: 40px;
     letter-spacing: 3px;
+}
+
+#landingabout {
+    background-image: url("Image/AboutLanding.jpg");
+    height: 25vh;
+    background-position: right;
+}
+
+#landingindex {
+    background-image: url("Image/LandingPageBackground.jpg");
 }
 
 #navbox {
