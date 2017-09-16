@@ -43,7 +43,7 @@ hr {
 }
 
 .landing {
-    height: 100vh;
+    height: 95vh;
     background-position: center;
     background-size: cover;
     background-image: url("Image/LandingPageBackground.jpg");
