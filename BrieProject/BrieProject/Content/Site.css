@@ -40,9 +40,7 @@ hr {
     background-position: center;
     background-size: cover;
     text-align: center;
-    padding-top: 45vh;
     background-repeat: no-repeat;
-    image-resolution: 300dpi;
     color: white;
 }
 
@@ -78,6 +76,7 @@ hr {
 
 #landingindex {
     background-image: url("Image/LandingPageBackground.jpg");
+    padding-top: 30vh;
 }
 
 #navbox {
