@@ -1,8 +1,5 @@
 ﻿body {
-    padding-top: 50px;
-    padding-bottom: 20px;
-    background-color: #3c3c44;
-    color: white;
+
 }
 
 /* Set padding to keep content from hitting the edges */
@@ -32,24 +29,21 @@ textarea {
 hr {
     border-color:black;
 }
-.experience {
-    background-color: lightgray;
-    color: black;
-    margin-bottom: 5px;
-    padding-top: 1px;
-}
+
 
 .experienceblock {
     padding-bottom: 10px;
 }
 
 .landing {
-    height: 95vh;
+    height: 100vh;
     background-position: center;
     background-size: cover;
     text-align: center;
-    padding-top: 20%;
+    padding-top: 45vh;
     background-repeat: no-repeat;
+    image-resolution: 300dpi;
+    color: white;
 }
 
     .landing h2, h4 {
