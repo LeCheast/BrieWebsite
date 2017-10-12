@@ -68,10 +68,19 @@ hr {
     letter-spacing: 3px;
 }
 
+#downloadresume {
+    color: #777777;
+}
+
 #landingabout {
     background-image: url("Image/AboutLanding.jpg");
     height: 25vh;
-    background-position: right;
+    background-position: center;
+}
+#landingaboutmd {
+    background-image: url("Image/AboutLanding.jpg");
+    height: 40vh;
+    background-position: center;
 }
 
 #landingindex {
