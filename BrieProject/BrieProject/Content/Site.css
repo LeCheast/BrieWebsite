@@ -61,6 +61,16 @@ textarea {
     }
 }
 
+@media (max-width: 430px){
+    #aboutprofilepic {
+        display: block !important;
+        margin: 0 auto !important;
+        width: 70% !important;
+        padding-bottom: 10px;
+    }
+}
+
+
 hr {
     border-color:black;
 }

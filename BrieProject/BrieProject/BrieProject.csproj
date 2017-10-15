@@ -154,6 +154,7 @@
     <Content Include="Content\Image\AboutLanding.jpg" />
     <Content Include="Content\Image\Crisis_Text_Line_logo.png" />
     <Content Include="Content\Image\LandingPageBackground.jpg" />
+    <Content Include="Content\Image\SQPHOTO-32.jpg" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
