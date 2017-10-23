@@ -70,6 +70,15 @@ textarea {
     }
 }
 
+@media (max-width: 670px) and (orientation: landscape) {
+    #aboutprofilepic, cancerresearch, textline {
+        display: block !important;
+        margin: 0 auto !important;
+        width: 50% !important;
+        padding-bottom: 10px;
+    }
+}
+
 
 hr {
     border-color:black;
