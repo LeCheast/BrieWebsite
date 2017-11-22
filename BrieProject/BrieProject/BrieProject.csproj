@@ -164,7 +164,7 @@
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Content\Documents\TestResumeDocument.pdf" />
+    <Content Include="Content\Documents\BrianneKingeryResume.pdf" />
     <None Include="Properties\PublishProfiles\BrianneKingery - Web Deploy.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
