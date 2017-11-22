@@ -41,6 +41,12 @@ textarea {
     }
 }
 
+@media (max-width: 767px) {
+    #byuimg {
+        margin-top: 0 !important;
+    }
+}
+
 /*-------------NAVBAR NAME-------------*/
 @media (max-width: 350px)
 {
@@ -93,6 +99,10 @@ hr {
     padding-bottom: 10px;
 }
 
+.indentli {
+    list-style-type: none;
+}
+
 .landing {
     height: 100vh;
     background-position: center;
@@ -123,6 +133,10 @@ hr {
     color: white;
     font-family: Pathway Gothic One;
     font-size: 40px;
+}
+
+#byuimg {
+    margin-top: -75px;
 }
 
 #downloadresume {
