@@ -1,5 +1,4 @@
 ﻿body {
-
 }
 
 /* Set padding to keep content from hitting the edges */
@@ -25,7 +24,7 @@ textarea {
 
 /*--------------MY CSS STUFF---------------------*/
 
-@media (max-width: 450px){
+@media (max-width: 450px) {
     .landingabout {
         background-image: url("Image/AboutLanding.jpg");
         height: 25vh !important;
@@ -33,7 +32,7 @@ textarea {
     }
 }
 
-@media (min-width: 450px){
+@media (min-width: 450px) {
     .landingabout {
         background-image: url("Image/AboutLanding.jpg");
         height: 40vh !important;
@@ -41,27 +40,32 @@ textarea {
     }
 }
 
+@media (max-width: 767px) {
+    #byuimg {
+        margin-top: 0 !important;
+    }
+}
+
 /*-------------NAVBAR NAME-------------*/
-@media (max-width: 350px)
-{
+@media (max-width: 350px) {
     .navbar-default .navbar-brand {
         letter-spacing: 0;
     }
 }
 
-@media (min-width: 350px) (max-width: 400px){
+@media (min-width: 350px) (max-width: 400px) {
     .navbar-default .navbar-brand {
         letter-spacing: 3px;
     }
 }
 
-@media (min-width: 400px){
+@media (min-width: 400px) {
     .navbar-default .navbar-brand {
         letter-spacing: 5px;
     }
 }
 
-@media (max-width: 430px){
+@media (max-width: 430px) {
     #aboutprofilepic {
         display: block !important;
         margin: 0 auto !important;
@@ -71,7 +75,7 @@ textarea {
 }
 
 @media (max-width: 750px) and (orientation: landscape) {
-    #aboutprofilepic, #cancerresearch, #textline {
+    #aboutprofilepic, #cancerresearch, #textline, #byuimg {
         display: block !important;
         margin: 0 auto !important;
         width: 50% !important;
@@ -81,7 +85,7 @@ textarea {
 
 
 hr {
-    border-color:black;
+    border-color: black;
 }
 
 .experienceimg {
@@ -91,6 +95,10 @@ hr {
 
 .experienceblock {
     padding-bottom: 10px;
+}
+
+.indentli {
+    list-style-type: none;
 }
 
 .landing {
@@ -123,6 +131,14 @@ hr {
     color: white;
     font-family: Pathway Gothic One;
     font-size: 40px;
+}
+
+#byuimg {
+    margin-top: -75px;
+}
+
+#cancerresearch {
+    padding-top: 0;
 }
 
 #downloadresume {

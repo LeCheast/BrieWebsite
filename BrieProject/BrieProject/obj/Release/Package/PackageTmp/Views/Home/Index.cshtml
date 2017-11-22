@@ -2,6 +2,12 @@
     ViewBag.Title = "Home";
 }
 
+<style>
+    #researchbullet {
+        padding-left: 55px;
+    }
+</style>
+
 <div class="landing" id="landingindex">
     <div id="title">
         <h2>Brianne Kingery</h2>
@@ -12,16 +18,55 @@
 </div>
 <div>
     <div class="container">
+        <h1><strong>Education</strong></h1>
+        <hr />
+        <div class="row">
+            <h3 class="col-sm-4 col-xs-12">Brigham Young University, Provo</h3>
+        </div>
+        <p class="col-xs-12">Bachelor of Science in Molecular Biology, expected April 2018</p>
+        <ul class="col-xs-12 col-sm-8">
+            <li>3.92 GPA</li>
+            <li>Full-ride scholarship for academic merit</li>
+            <li>Spanish Minor</li>
+            <li>Relevant coursework and grade received:</li>
+            <li class="indentli">
+                <ul>
+                    <li>Molecular Biology (Intro & Advanced with labs): A</li>
+                    <li>Genetics: A</li>
+                    <li>Intro to Psychology: A</li>
+                    <li>Biochemistry: A-</li>
+                </ul>
+            </li>
+            <li>Planned coursework for last semester:</li>
+            <li class="indentli">
+                <ul>
+                    <li>Statistics</li>
+                    <li>Genetics of Human Disease</li>
+                    <li>Spanish for the Medical Profession</li>
+                </ul>
+            </li>
+        </ul>
+        <div>
+            <img src="~/Content/Image/Brigham_Young_University_medallion.png" class="col-xs-12 col-sm-4 experienceimg" id="byuimg"/>
+        </div>
+    </div>
+    <div class="container">
         <h1><strong>My Experience</strong></h1>
         <hr />
         <div class="row">
-            <h3 class="col-sm-4 col-xs-12">Cancer Research Lab</h3>
+            <h3 class="col-xs-12">Cancer Research Lab</h3>
         </div>
         <div class="row experienceblock">
             <div>
                 <img src="https://cancerresearch.byu.edu/wp-content/uploads/2015/10/life-science-building.jpg" class="col-sm-4 col-xs-12 experienceimg" id="cancerresearch"/>
             </div>
-            <p class="col-sm-8 col-xs-12">
+            <p class="col-sm-8 col-xs-12">RESEARCH ASSISTANT, Provo July 2016-Present</p>
+            <ul class="col-sm-8 col-xs-12" id="researchbullet">
+                <li>Research focused on cancer biomarker TK1 and immunosuppression</li>
+                <li>Submitted abstract to American Association of Cancer Research annual meeting</li>
+                <li>Mastered lab techniques and gained critical thinking skills</li>
+            </ul>
+            <p class="col-sm-12 col-md-8 col-xs-12">
                 The BYU Simmons Center for Cancer Research is an organization composed of distinguished professors
                 in the fields of Chemical Engineering; Chemistry and Biochemistry; Health Sciences; Integrative Biology;
                 Microbiology and Molecular Biology; Nutrition, Dietetics and Food Science; Physiology and Developmental Biology;
@@ -30,7 +75,7 @@
                 researchers to study cancer and its mechanisms. These professors and students are driven to make a significant
                 contribution to the discovery of a cure for cancer.
             </p>
-            <p class="col-md-8 col-xs-12">
+            <p class="col-md-offset-4 col-md-8 col-xs-12">
                 Since 1997, when the fellowship program was initiated, more than 200 undergraduate and graduate students have been funded 
                 for full-time cancer research over a semester.  Their research has resulted in more than 140 publications with more to come.  
                 More importantly, the SCCR fellowship program has been a platform for many students into lifelong careers of oncology research 
@@ -43,9 +88,20 @@
             <h3 class="col-lg-4 col-xs-12">Crisis Text Line</h3>
         </div>
         <div class="row experienceblock">
-            <p class="col-sm-8 col-xs-12" style="padding-top: 20px;">Crisis Text Line was born “from the rib” of DoSomething.org, the largest organization for young people and social change. 
-            Dozens of DoSomething.org members were texting in to ask for personal help and CEO Nancy Lublin came up with the idea for Crisis 
-            Text Line and quietly launched in August 2013.</p>
+            <div class="col-sm-8 col-xs-12" style="padding-top: 20px;">
+                <p>CRISIS TEXT LINE COUNSELOR, online March 2017-present</p>
+                <ul>
+                    <li>Excelled in 6-week counseling training program</li>
+                    <li>Counseled over 300 individuals in crisis, with over 100 hours experience</li>
+                    <li>Communicated regularly with supervisors and leaders</li>
+                    <li>Led discussion on outreach efforts as spokesperson in Youth Advisory Council (September 2017- Present)</li>
+                </ul>
+                <p>
+                    Crisis Text Line was born “from the rib” of DoSomething.org, the largest organization for young people and social change.
+                    Dozens of DoSomething.org members were texting in to ask for personal help and CEO Nancy Lublin came up with the idea for Crisis
+                    Text Line and quietly launched in August 2013.
+                </p>
+            </div>
             <img src="~/Content/Image/Crisis_Text_Line_logo.png" class="col-sm-4 col-xs-12 experienceimg" id="textline"/>
         </div>
         <hr />
