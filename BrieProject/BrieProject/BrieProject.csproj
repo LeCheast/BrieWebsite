@@ -155,6 +155,7 @@
     <Content Include="Content\Image\Brigham_Young_University_medallion.png" />
     <Content Include="Content\Image\Crisis_Text_Line_logo.png" />
     <Content Include="Content\Image\LandingPageBackground.jpg" />
+    <Content Include="Content\Image\LSBBuildingImage.jpg" />
     <Content Include="Content\Image\SQPHOTO.jpg" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
